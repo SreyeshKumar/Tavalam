@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Media Queries</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="main.js" ></script>
+    </head>
+    <body>
+        <center>
+            <h1>Media Queries</h1>
+            <br />
+            <img src="icons8-instagram-48.png" class="col-lg-10 col-md-4 col-sm-4 col-xs-12" />
+        </center>
+    </body>
+    <style>
+        @media screen and (min-width:400px){
+            body{
+                background-color: blue;
+            }
+            h1{
+                color: black;
+                font-style: italic;
+            }
+        }
+        
+        @media screen and (min-width:769px){
+            body{
+                background-color: black;
+            }
+             h1{
+                color: red;
+                 font-style: oblique;
+            }
+        }
+        
+        @media screen and (min-width:800px){
+            body{
+                background-color: red;
+            }
+             h1{
+                color: blue;
+                 font-style: initial;
+            }
+        }
+    </style>
+    
+</html>
